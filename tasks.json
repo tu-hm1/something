@@ -12,10 +12,7 @@
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
+      "group": "build",
       "problemMatcher": []
     },
     {
@@ -26,10 +23,7 @@
         "F:/code/runner.exe",
         "${fileDirname}/${fileBasenameNoExtension}.exe"
       ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
+      "group": "build",
       "problemMatcher": []
     },
     {
@@ -38,10 +32,7 @@
         "build",
         "run",
       ],
-      "group": {
-        "kind" : "build",
-        "isDefault": true,
-      }
+      "group": "build",
     },
     {
       "type": "cppbuild",
